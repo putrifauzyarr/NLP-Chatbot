@@ -135,7 +135,7 @@ def clean_text(text):
 
 def get_bow(text):
     clean_tokens = clean_text(text)
-    bag = * len(words)
+    bag = [0]* len(words)
     for token in clean_tokens:
         for idx, w in enumerate(words):
             if w == token:
