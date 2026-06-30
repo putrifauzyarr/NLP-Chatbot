@@ -1,4 +1,4 @@
-streamlit==1.38.0
-tensorflow==2.15.0
-numpy==1.26.4
+streamlit==1.46.0
+tensorflow==2.20.0
+numpy>=1.26,<2.2
 Sastrawi==1.0.1
