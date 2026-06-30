@@ -1,0 +1,322 @@
+{
+  "intents": [
+    {
+      "tag": "salam",
+      "input": [
+        "Halo",
+        "Hai",
+        "Hallo",
+        "Hi",
+        "Assalamualaikum",
+        "Assalamu'alaikum",        
+        "P",
+        "Ping",
+        "Selamat pagi",
+        "Pagi",
+        "Selamat siang",
+        "Siang",
+        "Selamat sore",
+        "Sore",
+        "Selamat malam",
+        "Malam",
+        "Halo min",
+        "Min",
+        "Permisi",
+        "Halo chatbot",
+        "Hay",
+        "Alo"
+      ],
+      "responses": [
+        "Halo! Selamat datang di Layanan Informasi PMB Universitas Nusa Putra. Ada yang bisa saya bantu terkait pendaftaran mahasiswa baru?",
+        "Berikut informasi seputar PMB Nusa Putra. Silakan tanyakan hal yang ingin Anda ketahui seperti info biaya, jurusan, atau jalur beasiswa!"
+      ]
+    },
+    {
+      "tag": "terima_kasih",
+      "input": [
+        "Terima kasih ya",
+        "Makasih min",
+        "Matur suwun",
+        "Thank you",
+        "Thanks",
+        "Makasih infonya",
+        "Sangat membantu",
+        "Oke terima kasih banyak",
+        "Sip makasih",
+        "Nuhun min",
+        "Makasi",
+        "Thx ya"
+      ],
+      "responses": [
+        "Sama-sama! Senang bisa membantu Anda. Semoga proses pendaftaran kuliah Anda berjalan lancar ya!",
+        "Kembali kasih. Jika ada hal lain yang ingin ditanyakan seputar PMB Nusa Putra, jangan ragu untuk bertanya lagi."
+      ]
+    },
+    {
+      "tag": "salam_penutup",
+      "input": [
+        "Dadaah",
+        "Bye",
+        "Sampai jumpa",
+        "Sudah cukup min",
+        "Saya pamit",
+        "Udah ga ada pertanyaan lagi",
+        "Wassalamualaikum",
+        "Dadah mimin",
+        "Goodbye"
+      ],
+      "responses": [
+        "Sampai jumpa lagi! Semoga sukses menjadi bagian dari keluarga besar Universitas Nusa Putra. Kampus Dunia untuk Masa Depan Anda!",
+        "Wassalamualaikum wr. wb. Terima kasih telah menghubungi kami, sukses selalu!"
+      ]
+    },
+    {
+      "tag": "cara_pendaftaran",
+      "input": [
+        "Bagaimana cara mendaftar kuliah di Nusa Putra?",
+        "Alur pendaftaran mahasiswa baru di Nusa Putra seperti apa?",
+        "Di mana link pendaftaran PMB Nusa Putra?",
+        "Saya mau daftar kuliah, langkah-langkahnya bagaimana?",
+        "Cara buat akun di website PMB Nusa Putra gimana?",
+        "Prosedur pendaftaran maba nusa putra",
+        "Gimana langkah awal mau masuk nusa putra?",
+        "Mau nanya web resmi buat daftar kuliah disini apa ya?",
+        "Link pmban nusa putra dimana?",
+        "Saya mau registrasi akun baru pmb gimana caranya?",
+        "Alur penerimaan mahasiswa baru nusa putra",
+        "Bisa tolong jelaskan tahapan pendaftaran dari awal?",
+        "Cara join jadi mahasiswa nusa putra",
+        "Tutorial daftar online nusa putra",
+        "Website pmb nusaputra apa ya?",
+        "Step by step daftar kuliah di nusa putra"
+      ],
+      "responses": [
+        "Pendaftaran mahasiswa baru dilakukan secara online melalui portal resmi di pmb.nusaputra.ac.id. Alurnya dimulai dari membuat akun, memilih jalur masuk, mengisi data diri dan asal sekolah, memilih program studi, hingga mengunggah berkas persyaratan."
+      ]
+    },
+    {
+      "tag": "syarat_berkas",
+      "input": [
+        "Apa saja syarat berkas untuk daftar PMB?",
+        "Dokumen apa saja yang harus di-upload saat pendaftaran?",
+        "Kalau belum punya ijazah, apakah bisa daftar pakai rapor?",
+        "Format berkas yang di-upload harus PDF atau JPG?",
+        "Apakah butuh kartu keluarga dan KTP untuk mendaftar?",
+        "Syarat masuk nusa putra apa aja?",
+        "Berkas yang kudu disiapin buat daftar kuliah",
+        "Mau upload dokumen tapi ga tau apa aja yang dibutuhin",
+        "Bisa daftar pake surat keterangan lulus ga?",
+        "Ijazah belum keluar, pake raport semester 5 boleh?",
+        "Foto buat pmb harus ukuran berapa dan background apa?",
+        "Persyaratan administrasi pmb nusa putra",
+        "Dokumen fisik apa perlu dikirim ke kampus?",
+        "Maksimal ukuran file upload berkas berapa?",
+        "Scan kk dan ktp wajib ya?",
+        "Syarat buat lulusan smk apa aja?"
+      ],
+      "responses": [
+        "Berkas utama yang perlu Anda siapkan adalah scan KTP/Kartu Keluarga, pas foto terbaru, dan scan Ijazah asli (SMA/SMK/MA sederajat). Bagi lulusan baru yang belum memiliki ijazah, pendaftaran dapat menggunakan scan rapor semester 1-5 dalam bentuk file digital (PDF/JPG)."
+      ]
+    },
+    {
+      "tag": "biaya_pendaftaran",
+      "input": [
+        "Berapa biaya pendaftaran di Universitas Nusa Putra?",
+        "Berapa harga formulir PMB Nusa Putra?",
+        "Cara bayar uang pendaftaran lewat apa saja?",
+        "Apakah bisa bayar formulir via Indomaret atau Shopee?",
+        "Di mana saya bisa melihat kode Virtual Account pembayaran formulir?",
+        "Beli formulir nusa putra berapa harganya?",
+        "Bayar pmb bisa lewat m-banking ga?",
+        "Cara dapet kode va buat bayar formulir",
+        "Uang pendaftaran pmb berapa?",
+        "Nusa putra pendaftaran gratis ato bayar?",
+        "Metode pembayaran formulir pendaftaran apa aja?",
+        "Habis isi data akun, bayar formulirnya ke mana?",
+        "Beli akun pmb berapa duit?",
+        "Bisa bayar formulir pake gopay ato shopeepay?",
+        "Tempat bayar registrasi awal pmb dimana?"
+      ],
+      "responses": [
+        "Biaya pembelian formulir pendaftaran awal adalah sebesar Rp200.000. Pembayaran dapat diselesaikan menggunakan nomor Virtual Account yang tertera di akun pendaftaran Anda melalui transfer bank, Alfamart, Indomaret, maupun Shopee Pay."
+      ]
+    },
+    {
+      "tag": "biaya_kuliah",
+      "input": [
+        "Berapa biaya kuliah per semester di Nusa Putra?",
+        "Rincian biaya kuliah kelas reguler berapa ya?",
+        "Berapa biaya untuk kelas karyawan / blended learning?",
+        "Apakah biaya kuliah di Nusa Putra bisa dicicil?",
+        "Berapa uang kuliah pokok yang harus dibayar di awal?",
+        "Ukt di nusa putra berapaan?",
+        "Mahal ga kuliah di nusa putra?",
+        "Bisa minta pricelist kuliah nusa putra?",
+        "Sistem pembayaran spp disini gmana?",
+        "Apakah ada biaya bangunan atau uang pangkal tambahan?",
+        "Biaya semesteran teknik informatika berapa?",
+        "Skema cicilan uang kuliah pokok gimana ya?",
+        "Biaya persemester kelas sabtu minggu berapa?",
+        "Ada uang gedung ga di nusa putra?",
+        "Rincian biaya masuk awal totalnya berapa?"
+      ],
+      "responses": [
+        "Biaya kuliah pokok per semester (UKP) untuk kelas Reguler adalah Rp3.600.000, sedangkan untuk kelas Blended Learning (Sabtu/Minggu) sebesar Rp4.200.000. Pembayaran kuliah sangat fleksibel dan dapat diangsur selama semester berjalan sesuai ketentuan kampus."
+      ]
+    },
+    {
+      "tag": "daftar_ulang",
+      "input": [
+        "Bagaimana cara daftar ulang kalau sudah dinyatakan lulus?",
+        "Apa saja syarat untuk registrasi ulang mahasiswa baru?",
+        "Berapa biaya minimal untuk daftar ulang?",
+        "Kapan batas waktu terakhir daftar ulang setelah pengumuman?",
+        "Di mana tempat untuk melakukan cek kesehatan mahasiswa baru?",
+        "Saya udah lulus seleksi, langkah selanjutnya apa?",
+        "Cara herregistrasi maba nusa putra",
+        "Batas akhir bayar uang daftar ulang kapan?",
+        "Kalo telat daftar ulang dianggap gugur ga?",
+        "Syarat ambil almamater apa aja?",
+        "Tes kesehatan buat daftar ulang bayar berapa?",
+        "Link buat konfirmasi daftar ulang dimana?",
+        "Uang muka daftar ulang minimal berapa?",
+        "Prosedur setelah lolos tes pmb",
+        "Info herregistrasi nusa putra"
+      ],
+      "responses": [
+        "Setelah dinyatakan lulus seleksi, Anda wajib melakukan registrasi ulang melalui sistem PMB. Prosedurnya meliputi pembayaran dana investasi awal kuliah (mulai dari Rp2.000.000 tergantung program studi), biaya cek kesehatan, serta pemesanan jas almamater kampus."
+      ]
+    },
+    {
+      "tag": "pilihan_kelas",
+      "input": [
+        "Di Nusa Putra ada kelas apa saja?",
+        "Apakah ada kelas karyawan di Universitas Nusa Putra?",
+        "Kuliah blended learning itu jadwalnya hari apa saja?",
+        "Apakah bisa kuliah sambil kerja di sini?",
+        "Bedanya kelas reguler sama kelas blended apa?",
+        "Ada kelas malam ga di nusa putra?",
+        "Jadwal kuliah karyawan hari apa aja?",
+        "Saya kerja, cocoknya ambil kelas apa ya?",
+        "Sistem perkuliahan blended itu full online kah?",
+        "Pilihan waktu kuliah di nusa putra",
+        "Ada kelas sabtu minggu ga?",
+        "Bisa pindah dari kelas reguler ke kelas karyawan?",
+        "Sistem absensi kelas blended gimana?",
+        "Nusa putra nerima mahasiswa yang sambil kerja ga?",
+        "Pembagian kelas maba nusa putra"
+      ],
+      "responses": [
+        "Universitas Nusa Putra menyediakan beberapa pilihan kelas: Kelas Reguler (Senin-Jumat penuh), Kelas Blended Learning Sabtu, dan Kelas Blended Learning Minggu. Kelas Blended sangat cocok bagi Anda yang ingin kuliah fleksibel sambil bekerja karena mengombinasikan pembelajaran daring dan luring."
+      ]
+    },
+    {
+      "tag": "program_studi",
+      "input": [
+        "Di Nusa Putra ada jurusan apa saja untuk S1?",
+        "Apakah ada jurusan Teknik Informatika / Sistem Informasi?",
+        "Apa saja program studi teknik yang tersedia?",
+        "Apakah Nusa Putra punya jurusan Akuntansi dan Manajemen?",
+        "Jurusan PGSD dan Hukum di sini sudah akreditasi apa?",
+        "Nusa putra punya jurusan apa aja?",
+        "List prodi s1 di nusa putra",
+        "Ada jurusan komputer apa aja disini?",
+        "Fakultas bisnis ada jurusan apa aja?",
+        "Jurusan yang paling favorit di nusa putra apa?",
+        "Apakah ada program diploma d3 di nusa putra?",
+        "Mau liat daftar program studi yang dibuka",
+        "Jurusan teknik sipil akreditasinya apa?",
+        "Ada jurusan keguruan ga disini?",
+        "Mau masuk manajemen nusa putra syaratnya apa?"
+      ],
+      "responses": [
+        "Program studi S1 terakreditasi yang tersedia meliputi rumpun teknik dan komputer (Teknik Informatika, Sistem Informasi, Teknik Sipil, Teknik Mesin, Teknik Elektro) serta rumpun sosial humaniora (Manajemen, Akuntansi, Ilmu Hukum, dan PGSD)."
+      ]
+    },
+    {
+      "tag": "jalur_seleksi",
+      "input": [
+        "Apakah masuk Nusa Putra harus ikut tes tulis ujian?",
+        "Ada jalur apa saja untuk pendaftaran mahasiswa baru?",
+        "Jalur non-tes itu syaratnya apa?",
+        "Pendaftar dari luar Sukabumi apakah wajib ikut tes?",
+        "Bagaimana cara mengetahui jadwal ujian seleksi PMB?",
+        "Ujian masuk nusa putra online atau offline?",
+        "Ada jalur rapor ga buat masuk?",
+        "Materi tes ujian pmb apa aja?",
+        "Kapan pengumuman hasil tes pmb keluar?",
+        "Jalur tanpa tes syaratnya gimana?",
+        "Kalau dapet peringkat di sekolah bisa masuk jalur apa?",
+        "Ujian seleksinya susah ga?",
+        "Jadwal tes gelombang 1 kapan?",
+        "Bisa masuk pake jalur prestasi olahraga ga?",
+        "Info seleksi masuk nusaputra"
+      ],
+      "responses": [
+        "Nusa Putra menyediakan Jalur Ujian Seleksi dan Jalur Non-Tes (Seleksi Nilai Rapor / Prestasi). Bagi pendaftar yang berdomisili di luar wilayah Sukabumi, tersedia kemudahan khusus berupa pembebasan tes tertulis melalui verifikasi berkas nilai rapor."
+      ]
+    },
+    {
+      "tag": "beasiswa",
+      "input": [
+        "Apakah ada beasiswa untuk mahasiswa baru di Nusa Putra?",
+        "Cara daftar Beasiswa Wali Kota Sukabumi bagaimana?",
+        "Apa saja syarat untuk mendapatkan beasiswa berprestasi?",
+        "Apakah Nusa Putra menerima beasiswa KIP Kuliah?",
+        "Kapan pendaftaran jalur beasiswa dibuka?",
+        "Info beasiswa bupati nusa putra",
+        "Gimana cara kuliah gratis di nusa putra?",
+        "Kuota kip kuliah di nusa putra ada berapa?",
+        "Ada beasiswa full 4 tahun ga?",
+        "Syarat dapet beasiswa hafiz quran gimana?",
+        "Link daftar beasiswa wali kota",
+        "Apakah ada potongan biaya buat yang berprestasi?",
+        "Cara dapet beasiswa internal nusa putra",
+        "Beasiswa buat warga sukabumi apa aja?",
+        "Ujian beasiswa nusa putra kapan ya?"
+      ],
+      "responses": [
+        "Ya, tersedia berbagai program beasiswa seperti Beasiswa KIP-Kuliah, Beasiswa Prestasi Akademik/Non-Akademik, serta program Beasiswa Kerja Sama Daerah (seperti Beasiswa Wali Kota Sukabumi dan Beasiswa Bupati Sukabumi). Informasi kuota dan syarat lengkap dirilis berkala di web PMB."
+      ]
+    },
+    {
+      "tag": "kontak_helpdesk",
+      "input": [
+        "Di mana alamat gedung sekretariat PMB Nusa Putra?",
+        "Berapa nomor WhatsApp CS atau helpdesk PMB?",
+        "Jam berapa pelayanan PMB Nusa Putra buka?",
+        "Ke mana saya harus menghubungi jika terjadi error saat upload berkas?",
+        "No wa pmb nusa putra berapa?",
+        "Lokasi kampus nusa putra dimana sih?",
+        "Ada nomor telepon yang bisa dihubungi?",
+        "Sekretariat pmb buka hari sabtu ga?",
+        "Jam operasional pendaftaran offline jam berapa?",
+        "Email cs pmb nusa putra apa?",
+        "Mau nanya langsung ke panitia pmb kemana ya?",
+        "Alamat lengkap kampus universitas nusa putra",
+        "Akun instagram resmi pmb nusa putra apa?",
+        "Komplain masalah pendaftaran kemana?",
+        "Customer service pmb aktif jam berapa?"
+      ],
+      "responses": [
+        "Sekretariat PMB berlokasi di Kampus Universitas Nusa Putra, Jl. Raya Cibolang No.21, Sukabumi. Anda juga dapat menghubungi layanan Helpdesk/WhatsApp resmi PMB Nusa Putra melalui nomor kontak yang tertera di menu 'Hubungi Kami' pada situs pmb.nusaputra.ac.id pada jam kerja."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "input": [
+        "asdasd",
+        "gajelas",
+        "12345",
+        "skfshkj",
+        "makanan favorit mu apa",
+        "presiden indonesia siapa",
+        "cuaca hari ini gimana"
+      ],
+      "responses": [
+        "Maaf, saya belum memahami maksud pertanyaan Anda. Saya diprogram khusus untuk menjawab pertanyaan seputar PMB Universitas Nusa Putra seperti biaya kuliah, jurusan, berkas pendaftaran, atau info beasiswa.",
+        "Pertanyaan Anda tidak dikenali. Bisa tolong tulis ulang pertanyaan Anda dengan kata kunci yang lebih spesifik seputar pendaftaran mahasiswa baru Nusa Putra?"
+      ]
+    }
+  ]
+}
