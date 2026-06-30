@@ -18,7 +18,7 @@ st.set_page_config(
 # Custom styling 
 st.markdown("""
     <style>
-    @import url('https://googleapis.com');
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
     
     * {
         font-family: 'Plus Jakarta Sans', sans-serif !important;
@@ -135,7 +135,7 @@ def clean_text(text):
 
 def get_bow(text):
     clean_tokens = clean_text(text)
-    bag = [0]* len(words)
+    bag = [0] * len(words)
     for token in clean_tokens:
         for idx, w in enumerate(words):
             if w == token:
